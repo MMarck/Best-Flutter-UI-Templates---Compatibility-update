@@ -19,13 +19,13 @@ class DesignCourseAppTheme {
   static const Color spacer = Color(0xFFF2F2F2);
 
   static const TextTheme textTheme = TextTheme(
-    headline4: display1,
-    headline5: headline,
-    headline6: title,
-    subtitle2: subtitle,
-    bodyText1: body2,
-    bodyText2: body1,
-    caption: caption,
+    headlineLarge: display1,
+    headlineMedium: headline,
+    headlineSmall: title,
+    titleSmall: subtitle,
+    bodyLarge: body2,
+    bodyMedium: body1,
+    bodySmall: bodySmall,
   );
 
   static const TextStyle display1 = TextStyle(
@@ -57,7 +57,7 @@ class DesignCourseAppTheme {
   );
 
   static const TextStyle subtitle = TextStyle(
-    // subtitle2 -> subtitle
+    // titleSmall -> subtitle
     fontFamily: 'WorkSans',
     fontWeight: FontWeight.w400,
     fontSize: 14,
@@ -83,8 +83,8 @@ class DesignCourseAppTheme {
     color: darkText,
   );
 
-  static const TextStyle caption = TextStyle(
-    // Caption -> caption
+  static const TextStyle bodySmall = TextStyle(
+    // bodySmall -> bodySmall
     fontFamily: 'WorkSans',
     fontWeight: FontWeight.w400,
     fontSize: 12,
